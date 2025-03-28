@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner AI</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <h1>✈️ Travel Planner AI</h1>
+    <p>Please use the options below to plan your trip!</p>
+    <form id="travelForm">
+        <label for="budget">Budget:</label>
+        <select id="budget" name="budget">
+            <option value="low">Low ($0-$500)</option>
+            <option value="moderate">Moderate ($500-$1500)</option>
+            <option value="high">High ($1500+)</option>
+        </select>
+
+        <label for="duration">Trip Duration:</label>
+        <select id="duration" name="duration">
+            <option value="1-3">1-3 days</option>
+            <option value="4-7">4-7 days</option>
+            <option value="8+">8+ days</option>
+        </select>
+
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination">
+            <option value="paris">Paris</option>
+            <option value="newyork">New York</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="goa">Goa</option>
+            <option value="kerala">Kerala</option>
+            <option value="agra">Agra</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="varanasi">Varanasi</option>
+            <option value="udaipur">Udaipur</option>
+            <option value="shimla">Shimla</option>
+            <option value="rishikesh">Rishikesh</option>
+            <option value="kolkata">Kolkata</option>
+        </select>
+
+        <button type="submit">Next</button>
+    </form>
+    <div id="output"></div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
